@@ -37,6 +37,7 @@ return {
         ['<C-i>']     = { 'scroll_documentation_up',        'fallback' },
         ['<C-o>']     = { 'scroll_documentation_down',      'fallback' },
         ['<Tab>']     = { 'accept',                         'fallback' },
+        ['<CR>']     =  { 'fallback' },
       },
       signature = {
         enabled = true,
@@ -65,7 +66,7 @@ return {
           preset = 'none',
           ['<C-n>']     = { 'select_next',                    'fallback' },
           ['<C-m>']     = { 'select_prev',                    'fallback' },
-          ['<CR>']      = { 'accept',                         'fallback' },
+          ['<CR>']      = { 'accept_and_enter',               'fallback' },
         },
       },
     },

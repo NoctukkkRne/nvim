@@ -8,6 +8,7 @@ return {
       -- your configuration comes here
       -- or leave it empty to use the default settings
       -- refer to the configuration section below
+      animate = { enabled = false },
       bigfile = { enabled = true },
       dashboard = {
         enable = true,
@@ -60,7 +61,7 @@ return {
       notifier = { enabled = false },
       quickfile = { enabled = true },
       scope = { enabled = false },
-      scroll = { enabled = true },
+      scroll = { enabled = false },
       statuscolumn = { enabled = true },
       words = { enabled = true },
     },
