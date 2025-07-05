@@ -42,12 +42,15 @@ return {
       signature = {
         enabled = true,
       },
+      appearance = {
+        nerd_font_variant = 'mono',
+      },
       sources = {
         default = { 'lsp', 'path', 'buffer' },
         providers = {
           buffer = {score_offset = 5},
-          lsp = {score_offset = 4},
-          path = {score_offset = 3},
+          path = {score_offset = 4},
+          lsp = {score_offset = 3},
         },
       },
       cmdline = {
