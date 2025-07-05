@@ -42,6 +42,3 @@ vim.api.nvim_create_autocmd('BufReadPost', {
   end,
 })
 
-vim.lsp.enable('lua_ls')
-vim.lsp.enable('pyright')
-vim.lsp.enable('clangd')
