@@ -32,10 +32,10 @@ return {
       },
       keymap = {
         preset = 'none',
+        ['<C-p>']     = { 'select_prev',                    'fallback' },
         ['<C-n>']     = { 'select_next',                    'fallback' },
-        ['<C-m>']     = { 'select_prev',                    'fallback' },
-        ['<C-i>']     = { 'scroll_documentation_up',        'fallback' },
-        ['<C-o>']     = { 'scroll_documentation_down',      'fallback' },
+        ['<C-b>']     = { 'scroll_documentation_up',        'fallback' },
+        ['<C-f>']     = { 'scroll_documentation_down',      'fallback' },
         ['<Tab>']     = { 'accept',                         'fallback' },
         ['<CR>']     =  { 'fallback' },
       },
