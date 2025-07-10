@@ -11,5 +11,8 @@ return {
       local configs = require('catppuccin')
       configs.setup(opts)
     end
-  }
+  },
+  {
+    'ellisonleao/gruvbox.nvim'
+  },
 }

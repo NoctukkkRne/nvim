@@ -68,7 +68,7 @@ return {
         keymap = {
           preset = 'none',
           ['<C-n>']     = { 'select_next',                    'fallback' },
-          ['<C-m>']     = { 'select_prev',                    'fallback' },
+          ['<C-p>']     = { 'select_prev',                    'fallback' },
           ['<CR>']      = { 'accept_and_enter',               'fallback' },
         },
       },
