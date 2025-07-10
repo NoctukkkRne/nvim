@@ -26,6 +26,8 @@ vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
 vim.opt.termguicolors = true
+-- vim.cmd("set t_Co=256")
+
 vim.opt.signcolumn = 'yes'
 
 vim.opt.winborder = 'double'
